@@ -6,3 +6,19 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# lock files
+*.lock
+# binary files
+*.bin
+*.class
+*.exe
+*.o
+*.so
+# Node.js 관련
+node_modules/
+npm-debug.log
+yarn-error.log
+# Java / Gradle 관련
+target/
+build/
+.gradle/
