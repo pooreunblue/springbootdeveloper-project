@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 import me.baekseungho.springbootdeveloper.domain.Article;
 import me.baekseungho.springbootdeveloper.dto.AddArticleRequest;
 import me.baekseungho.springbootdeveloper.dto.ArticleResponse;
-ㅈimport me.baekseungho.springbootdeveloper.dto.UpdateArticleRequest;
+import me.baekseungho.springbootdeveloper.dto.UpdateArticleRequest;
 import me.baekseungho.springbootdeveloper.service.BlogService;
 
 import org.springframework.http.HttpStatus;
