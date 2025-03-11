@@ -23,7 +23,6 @@ public class Article {
 
     @Column(name = "title", nullable = false) // 'title'이라는 not null 컬럼과 매핑
     private String title;
-
     @Column(name = "content", nullable = false)
     private String content;
 
@@ -37,4 +36,12 @@ public class Article {
         this.title = title;
         this.content = content;
     }
+
+    @CreatedDate // 엔티티가 생성될 때 생성 시간 저장
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
+
+    @LastModifiedDate // 엔티티가 수정될 때 수정 시간 저장
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
 }
