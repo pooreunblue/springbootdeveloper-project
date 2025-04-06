@@ -46,7 +46,7 @@ public class User implements UserDetails { // UserDetails를 상속받아 인증
         return email;
     }
 
-    // 사용자의 패스우드 반환
+    // 사용자의 패스워드 반환
     @Override
     public String getPassword() {
         return password;
